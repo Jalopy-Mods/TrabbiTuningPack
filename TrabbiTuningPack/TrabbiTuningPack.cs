@@ -43,14 +43,14 @@ namespace TrabbiTuningPack
             eyelidsObject.transform.localRotation = Quaternion.identity;
             eyelidsObject.transform.localScale = Vector3.one;
 
-            ModHelper.Instance.CreateIconForExtra(eyelidsObject, new Vector3(), new Vector3(2, 2, 2), new Vector3(), "Eyelids");
+            ModHelper.Instance.CreateIconForExtra(eyelidsObject, new Vector3(0.15f, 0.35f, 0), new Vector3(0.2f, 0.2f, 0.2f), new Vector3(0, 90, 0), "Eyelids");
 
             CustomObjectsManager.Instance.RegisterObject(ModHelper.Instance.CreateExtraObject(eyelidsObject, BoxSizes.Small, "Eyelids", "Eyelids for your headlights, for an aggressive look!", 40, 1, "Eyelids", AttachExtraTo.Body), "Eyelids");
         
             rearLouvresObject = LoadAsset<GameObject>("rearlouvres", "RearLouvres", "", ".prefab");
             rearLouvresObject = Instantiate(rearLouvresObject, ModHelper.Instance.laika.transform.Find("TweenHolder/Frame"));
 
-            ModHelper.Instance.CreateIconForExtra(rearLouvresObject, new Vector3(), new Vector3(1, 1, 1), new Vector3(), "RearLouvres");
+            ModHelper.Instance.CreateIconForExtra(rearLouvresObject, new Vector3(0, 0.1f, 0), new Vector3(20, 20, 20), new Vector3(-90, -200, 110), "RearLouvres");
 
             CustomObjectsManager.Instance.RegisterObject(ModHelper.Instance.CreateExtraObject(rearLouvresObject, BoxSizes.Big, "Rear Louvres", "Adds rear louvres to your Laika, for a sporty look!", 60, 3, "Rear Louvres", AttachExtraTo.Body), "RearLouvres");
         }
