@@ -18,3 +18,4 @@ This mod adds headlight eyelids & rear louvres to the Laika! They can be bought 
 ![image](https://github.com/Jalopy-Mods/TrabbiTuningPack/assets/101940826/6e09b68f-37db-4933-8c34-0466ff91de2d)
 
 ![image](https://github.com/Jalopy-Mods/TrabbiTuningPack/assets/101940826/e9993bbd-239c-453a-8c66-95b6a3252885)
+
